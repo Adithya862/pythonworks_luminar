@@ -1,0 +1,22 @@
+Abstraction
+
+class Person:
+def init(self):
+self.name="adithya"
+def bio(self):
+ self.adr="abc"  -self.num="123"
+ obj=Person
+ print(obj.name)
+
+class Student:
+def init(self,name,course):
+self.name=name
+self.course=course
+def get_student(self):
+print("my name is",self.name"and my course is" self.course)
+obj=student("sukumar","python")
+obj.get_student()
+obj1=student("abc","xyz")
+obj1.get_student()
+
+Inheritance

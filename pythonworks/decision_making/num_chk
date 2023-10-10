@@ -1,0 +1,26 @@
+# num=65
+# if(num%5==0):
+#     print("abc")
+# else:
+#     print("cde")
+
+# terinary operator (no colon)
+
+num=65
+result="abc" if num%5==0 else "cde"
+print(result)
+
+
+n1=50
+n2=10
+result=n1-n2 if n1>n2 else n2-n1
+print(result)
+
+
+
+num=int(input("enter a number"))
+# of num<5 return num+1 else return num-1
+
+map_num=num+1 if num>5 else num-1
+print(map_num)
+

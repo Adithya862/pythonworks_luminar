@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    list-style: none;
+}
+.page {
+    width: 80%;
+    height:750px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: rgb(243, 236, 236);
+    margin-left: auto;
+    margin-right:auto;   
+}
+.aside,.nav,.main{
+  background-color: white;
+  border: 2px solid rgb(200, 195, 195);
+}
+nav{
+    width:90px;
+   max-width: 300px;
+}
+.page .aside{
+grid-row-start:1;
+grid-row-end:4;
+}
+.page,.nav{
+    grid-column-start:2;
+grid-column-end:5 ;
+}
+.page,.main{
+    grid-column-start:2;
+grid-column-end:5 ;
+grid-row-start: 2;
+grid-row-end: 4;
+}
+
+img{
+    width:380px;
+    height:290px;
+    position:absolute;
+}
+.text-block{
+    font-family:sans-serif;
+    color: #000000;
+    position:relative;
+    margin-left:25px; 
+    margin-top:69%;
+}
+hr{
+    border: 1px solid rgb(245, 241, 241);
+}
+.first{
+    margin-top: 30px;
+    margin-left:2px;
+    line-height: 30px;
+    color: rgb(89, 88, 88);
+}
+.html{
+    box-sizing: border-box;
+    width: 90%;
+    background-color: #3ed5a3 ;
+}
+.nav li{
+    margin-left: 10px;
+    margin-top: 35px;
+}
+
+
+.second{
+    margin-top:20px;
+    margin-left: 20px;
+    font: 2em sans-serif;
+    color:rgb(104, 104, 103) ;
+}
+
+meter{
+    margin-left: auto;
+    margin-right: auto;
+    color: #fdfffe;
+    height:29px;
+    width: 320px;
+    text-align: center;   
+}
+.nav-header{
+font:1em sans-serif;
+padding-left:10px;
+padding-top: 40px;
+color:rgb(104, 104, 103) ;
+}
+.nav-header2{
+    font:1em sans-serif;
+    padding-left:10px;
+    padding-top: 30px;
+    color:rgb(0, 0, 0) ;
+}
+.main-header:nth-child(1){
+    /* padding-left:18px;
+    padding-top: 10px; */
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.main-header1{
+font:2em sans-serif;
+padding-left:14px;
+padding-top: 80px;
+color:rgb(104, 104, 103) ; 
+}
+.btn{
+    border:none;
+    color: #ffffff;
+    background-color:#15a173;
+}
+.main-header2{
+    padding-top:60px;
+    color:rgb(104, 104, 103);
+    font: 1em sans-serif;
+}
+.main-header3{
+    padding-top: 260px;
+    font: 1em sans-serif;
+    color:#15a173;
+}
+.main-header4{
+    padding-top: 260px;
+    font: 1em sans-serif;
+    color:#15a173;
+}
+.calender{
+    padding-left:14px;   
+}
+.paragraph{
+    padding-top: 30px;
+   font:1em sans-serif;
+    color: #000000;
+}

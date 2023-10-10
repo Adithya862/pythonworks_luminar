@@ -1,0 +1,46 @@
+/* tagname|class name|id -basic selectors */
+body{
+    background-color:white;
+}
+
+/* h1{
+   color: cyan; 
+} */
+
+#first{
+    color:aqua
+}
+
+#second{
+    color:green
+}
+
+.item{
+    color:blue
+}
+
+.item2{
+    color:black;
+    text-decoration: underline;
+    /* text-decoration: line-through; */
+    /* text-decoration: overline; */
+    text-decoration-color: red;
+}
+.first{
+    color: blue;
+}
+.second{
+    color: brown;
+}
+/* .main-head h1{
+    color: aqua;
+} */
+
+.main-head h1:nth-child(1){
+    color: aquamarine;
+}
+
+
+.main-head h1:nth-child(2){
+    color:greenyellow;
+}

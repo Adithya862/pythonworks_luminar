@@ -1,0 +1,6 @@
+print("good morning")
+print("good aftenoon")
+# greeting=("good evening")
+# print(greeting)
+print("good evening")
+print("good night")
